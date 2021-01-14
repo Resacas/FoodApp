@@ -1,0 +1,53 @@
+/* header */
+header{
+    padding: 1vw;
+}
+
+main{
+    margin-bottom: 10%;
+}
+
+/* categorias */
+.categories{
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    height:10px;
+    width:0px;
+}
+::-webkit-scrollbar-track {
+    background: var(--grisclaro);
+}
+::-webkit-scrollbar-thumb {
+    background:var(--gris);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--naranja);
+}
+
+.categories ul{
+    display: flex;
+}
+.categories ul .cat{
+    margin:1vw;
+}
+/* platos */
+.platos{
+    display: flex;
+    justify-content: center;
+}
+.platos ul{
+    min-width: 90%;
+}
+
+/* footer */
+footer{
+    padding: 1vw;
+    background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%
+}

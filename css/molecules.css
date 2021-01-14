@@ -1,0 +1,43 @@
+/* categorias */
+.cat{
+    max-width:6vw;
+    background-color: white;
+    text-align: center;
+    border-radius: 1vw;
+    padding:0 0 1vw 0;
+    box-shadow: var(--sombra);
+}
+
+/* platos */
+.plato{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius:2vw;
+    box-shadow: var(--sombra);
+    margin:1vw;
+}
+.plato .cuerpo-plato{
+    align-self:center;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+}
+.num-platos{
+    display: flex;
+    align-content: center;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: center;
+}
+.navegacion{
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    width: 30%;
+}
+.navegacion .btn-nav-foot-pedido{
+    position:relative;
+    top:-70%;
+}
