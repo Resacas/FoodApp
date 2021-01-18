@@ -2,10 +2,18 @@
 header{
     padding: 1vw;
 }
+header .btn-atras{
+    margin:2vw 0 1vw 0;
+}
+header .tit-pedido{
+
+}
 
 main{
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
+
+
 
 /* categorias */
 .categories{
@@ -39,13 +47,40 @@ main{
     justify-content: center;
 }
 .platos ul{
-    min-width: 90%;
+    width: 98%;
 }
+/* carrito */
+.carrito-compra{
+    border-radius: 50px 50px 0 0;
+    background-color: var(--naranja);
+}
+.carrito-compra .btn-pedido-enviar{
+    margin:1vw;
+}
+.nombrar-pedido{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 1vw;
+}
+.detalle-pedido{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1vw;
+
+}
+.detalle-pedido article{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detalle-pedido article p{
+    display: inline;
+}
+
 
 /* footer */
 footer{
-    padding: 1vw;
-    background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
     position: fixed;
     left: 0;
     bottom: 0;

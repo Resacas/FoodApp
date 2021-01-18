@@ -153,11 +153,13 @@ input[type='text'].numero-platos{
     color: white;
     font-size: 1vw;
     font-weight: 300;
+    text-align: right;
 }
 .total-factura-precio{
     color: white;
     font-size: 1.3vw;
     font-weight: 600;
+    text-align: right;
 }
 
 .nombre-pedido{
@@ -176,13 +178,13 @@ input[type='text'].numero-platos{
 }
 
 .btn-pedido-enviar{
-    width: 100%;
+    width: 98%;
     padding:1vw;
     border-radius: 1vw;
     background-color: white;
     justify-self: center;
 }
-.btn-pedido-enviar p{
+.btn-pedido-enviar {
     color: var(--negro);
     font-size: 1.5vw;
 }

@@ -15,7 +15,7 @@
     width: 100%;
     border-radius:2vw;
     box-shadow: var(--sombra);
-    margin:1vw;
+    margin:1vw 0 1vw 0;
 }
 .plato .cuerpo-plato{
     align-self:center;
@@ -30,8 +30,10 @@
 nav{
     display: flex;
     justify-content: center;
+    background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
 }
 .navegacion{
+    margin-top: 1vw;
     display:flex;
     justify-content:space-between;
     align-content: center;
