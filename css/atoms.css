@@ -1,21 +1,21 @@
 /* textos */
 .h1-head{
     color: var(--negro);
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 600;
     width: 100%;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
 }
 .h2-head{
     color: var(--negro);
     font-size: 2vw;
     font-weight: 600;
     width: 100%;
-    margin-bottom: 0.5vw;
+    margin-bottom: 1vw;
 }
 .h3-head{
     color: var(--gris);
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 600;
     width: 100%;
 }
@@ -24,8 +24,8 @@
 /* categorias */
 
 .img-cat{
-    width:6vw;
-    height:6vw;
+    width:12vw;
+    height:12vw;
     border-radius: 25%;
     overflow: hidden;
 }
@@ -34,9 +34,9 @@
 }
 .tit-cat{
     color: var(--negro);
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 600;
-    margin:1vw 0 0 0;
+    margin:2vw 0 0 0;
     
 }
 
@@ -44,8 +44,8 @@
 
 /* platos */
 .img-plato{
-    width:8vw;
-    height:8vw;
+    width:16vw;
+    height:16vw;
     border-radius: 25%;
     overflow: hidden;
 }
@@ -55,38 +55,38 @@
 
 .precio-plato{
     color: var(--naranja);
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: 600;
 }
 .nombre-plato{
     color: var(--negro);
-    font-size: 1.3vw;
+    font-size: 2.6vw;
     font-weight: 600;
 }
 .extras-plato{
     color: var(--gris);
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 400;
 }
 
 .btn-plato-mas{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 3vw;
+    height: 3vw;
     background-color:white;
     border-radius: 25% 0 0 25%;
 }
 .btn-plato-mas img{
-    width: 1vw;
+    width: 2vw;
 }
 
 .btn-plato-menos{
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 3vw;
+    height: 3vw;
     background-color:white;
     border-radius: 0 25% 25%  0;
 }
 .btn-plato-menos img{
-    width: 1vw;
+    width: 2vw;
 }
 
 input[type='text'].numero-platos{
@@ -98,95 +98,95 @@ input[type='text'].numero-platos{
 
 }
 .numero-platos{
-    width: 2vw;
-    height: 1.5vw;
-    font-size: 1vw;
+    width: 4vw;
+    height: 3vw;
+    font-size: 2vw;
 
 }
 
 /* modal */
 .btn-mod-cerrar{
-    width: 4.5vw;
-    height:4.5vw;
+    width: 9vw;
+    height:9vw;
     border-radius: 25%;
     background-color: var(--naranja);
 }
 .btn-mod-cerrar img{
-    width: 2.5vw;
+    width: 5vw;
 }
 .desc-modal{
     color: var(--negro);
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 400;
 }
 
 
 /* pedido */
 .btn-atras{
-    width: 2vw;
-    height: 2vw;
+    width: 4vw;
+    height: 4vw;
     background-color: var(--gris);
     border-radius: 25%;
 }
 .btn-atras img{
-    width: 1vw;
+    width: 2vw;
 }
 
 .tit-pedido{
     color: var(--negro);
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-weight: 600;
 }
 
 .desc-factura{
     color: white;
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 300;
 }
 .total-factura{
     color: white;
-    font-size: 1.3vw;
+    font-size: 2.6vw;
     font-weight: 600;
 }
 
 .desc-factura-precio{
     color: white;
-    font-size: 1vw;
+    font-size: 2vw;
     font-weight: 300;
     text-align: right;
 }
 .total-factura-precio{
     color: white;
-    font-size: 1.3vw;
+    font-size: 2.6vw;
     font-weight: 600;
     text-align: right;
 }
 
 .nombre-pedido{
     width: 100%;
-    padding:1vw;
-    border-radius: 1vw;
+    padding:2vw;
+    border-radius: 2vw;
     background-color: var(--grisclaro);
     justify-self: center;
 }
 .nombre-pedido::placeholder{
     width: 100%;
-    padding:1vw;
-    border-radius: 1vw;
+    padding:2vw;
+    border-radius: 2vw;
     color: var(--gris);
     justify-self: center;
 }
 
 .btn-pedido-enviar{
     width: 98%;
-    padding:1vw;
-    border-radius: 1vw;
+    padding:2vw;
+    border-radius: 2vw;
     background-color: white;
     justify-self: center;
 }
 .btn-pedido-enviar {
     color: var(--negro);
-    font-size: 1.5vw;
+    font-size: 3vw;
 }
 
 
@@ -196,15 +196,15 @@ input[type='text'].numero-platos{
     display: inline;
 }
 .btn-nav-foot img {
-    width: 2vw;
+    width: 4vw;
 }
 .btn-nav-foot-pedido{
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 7vw;
+    height: 7vw;
     border-radius: 50%;
     background-color: var(--naranja);
     box-shadow: var(--sombra);
 }
 .btn-nav-foot-pedido img{
-    width: 2vw;
+    width: 4vw;
 }

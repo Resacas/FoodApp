@@ -1,10 +1,5 @@
-'use strict'
-
-
-
-
 //Selectores
-const mainSelector = document.querySelector("");
+const mainSelector = document.querySelector("#productos");
 
 
 //Arrays Productos
@@ -16,7 +11,7 @@ const platos = [
         precio: 13.90,
         unidades: 1,
         descripcion:"Tabla de Fabada Asturiana para 3 personas.",
-        foto:"./img/productos/platos/fabada.png",
+        foto:"./img",
         categoria: "platos"
     },
     {
@@ -25,7 +20,7 @@ const platos = [
         precio: 13.75,
         unidades: 0,
         descripcion:"Botella de licor asturiano 70cl.",
-        foto:"./img/productos/bebidas/licordeguindas.png",
+        foto:"./img",
         categoria: "bebidas"
     },
     {
@@ -34,7 +29,7 @@ const platos = [
         precio: 4.95,
         unidades: 0,
         descripcion:"Media docena de Casadiellas.",
-        foto:"./img/productos/postres/casadiellas.png",
+        foto:"./img",
         categoria: "postres"
     },
     {
@@ -43,7 +38,7 @@ const platos = [
         precio: 13.75,
         unidades: 0,
         descripcion:"Botella de licor asturiano 70cl.",
-        foto:"./img/productos/bebidas/licordeguindas.png",
+        foto:"./img",
         categoria: "bebidas"
     },
     {
@@ -52,7 +47,7 @@ const platos = [
         precio: 4.95,
         unidades: 0,
         descripcion:"Media docena de Casadiellas.",
-        foto:"../img/productos/postres/casadiellas.png",
+        foto:"../img",
         categoria: "postres"
     },
     {
@@ -61,7 +56,7 @@ const platos = [
         precio: 13.90,
         unidades: 0,
         descripcion:"Tabla de Fabada Asturiana para 3 personas.",
-        foto:"./img/productos/platos/fabada.png",
+        foto:"./img",
         categoria: "platos"
     },
     {
@@ -70,7 +65,7 @@ const platos = [
         precio: 13.75,
         unidades: 0,
         descripcion:"Botella de licor asturiano 70cl.",
-        foto:"./img/productos/bebidas/licordeguindas.png",
+        foto:"./img",
         categoria: "bebidas"
     },
     {
@@ -79,7 +74,7 @@ const platos = [
         precio: 4.95,
         unidades: 0,
         descripcion:"Media docena de Casadiellas.",
-        foto:"./img/productos/postres/casadiellas.png",
+        foto:"./img",
         categoria: "postres"
     },
     
