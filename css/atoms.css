@@ -199,12 +199,12 @@ input[type='text'].numero-platos{
     width: 4vw;
 }
 .btn-nav-foot-pedido{
-    width: 7vw;
-    height: 7vw;
+    width: 9vw;
+    height: 9vw;
     border-radius: 50%;
     background-color: var(--naranja);
     box-shadow: var(--sombra);
 }
 .btn-nav-foot-pedido img{
-    width: 4vw;
+    width: 9vw;
 }
