@@ -1,21 +1,21 @@
 /* textos */
 .h1-head{
     color: var(--negro);
-    font-size: 2vw;
+    font-size: 4vw;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 4vw;
+}
+.h2-head{
+    color: var(--negro);
+    font-size: 4vw;
     font-weight: 600;
     width: 100%;
     margin-bottom: 2vw;
 }
-.h2-head{
-    color: var(--negro);
-    font-size: 2vw;
-    font-weight: 600;
-    width: 100%;
-    margin-bottom: 1vw;
-}
 .h3-head{
     color: var(--gris);
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 600;
     width: 100%;
 }
@@ -24,8 +24,8 @@
 /* categorias */
 
 .img-cat{
-    width:12vw;
-    height:12vw;
+    width:24vw;
+    height:24vw;
     border-radius: 25%;
     overflow: hidden;
 }
@@ -34,9 +34,9 @@
 }
 .tit-cat{
     color: var(--negro);
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 600;
-    margin:2vw 0 0 0;
+    margin:4vw 0 0 0;
     
 }
 
@@ -44,8 +44,8 @@
 
 /* platos */
 .img-plato{
-    width:16vw;
-    height:16vw;
+    width:32vw;
+    height:32vw;
     border-radius: 25%;
     overflow: hidden;
 }
@@ -55,38 +55,38 @@
 
 .precio-plato{
     color: var(--naranja);
-    font-size: 3vw;
+    font-size: 6vw;
     font-weight: 600;
 }
 .nombre-plato{
     color: var(--negro);
-    font-size: 2.6vw;
+    font-size: 5.2vw;
     font-weight: 600;
 }
 .extras-plato{
     color: var(--gris);
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 400;
 }
 
 .btn-plato-mas{
-    width: 3vw;
-    height: 3vw;
+    width: 6vw;
+    height: 6vw;
     background-color:white;
     border-radius: 25% 0 0 25%;
 }
 .btn-plato-mas img{
-    width: 2vw;
+    width: 4vw;
 }
 
 .btn-plato-menos{
-    width: 3vw;
-    height: 3vw;
+    width: 6vw;
+    height: 6vw;
     background-color:white;
     border-radius: 0 25% 25%  0;
 }
 .btn-plato-menos img{
-    width: 2vw;
+    width: 4vw;
 }
 
 input[type='text'].numero-platos{
@@ -98,95 +98,95 @@ input[type='text'].numero-platos{
 
 }
 .numero-platos{
-    width: 4vw;
-    height: 3vw;
-    font-size: 2vw;
+    width: 8vw;
+    height: 6vw;
+    font-size: 4vw;
 
 }
 
 /* modal */
 .btn-mod-cerrar{
-    width: 9vw;
-    height:9vw;
+    width: 18vw;
+    height: 18vw;
     border-radius: 25%;
     background-color: var(--naranja);
 }
 .btn-mod-cerrar img{
-    width: 5vw;
+    width: 10vw;
 }
 .desc-modal{
     color: var(--negro);
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 400;
 }
 
 
 /* pedido */
 .btn-atras{
-    width: 4vw;
-    height: 4vw;
+    width: 8vw;
+    height: 8vw;
     background-color: var(--gris);
     border-radius: 25%;
 }
 .btn-atras img{
-    width: 2vw;
+    width: 4vw;
 }
 
 .tit-pedido{
     color: var(--negro);
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 600;
 }
 
 .desc-factura{
     color: white;
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 300;
 }
 .total-factura{
     color: white;
-    font-size: 2.6vw;
+    font-size: 5.2vw;
     font-weight: 600;
 }
 
 .desc-factura-precio{
     color: white;
-    font-size: 2vw;
+    font-size: 4vw;
     font-weight: 300;
     text-align: right;
 }
 .total-factura-precio{
     color: white;
-    font-size: 2.6vw;
+    font-size: 5.2vw;
     font-weight: 600;
     text-align: right;
 }
 
 .nombre-pedido{
     width: 100%;
-    padding:2vw;
-    border-radius: 2vw;
+    padding: 4vw;
+    border-radius: 4vw;
     background-color: var(--grisclaro);
     justify-self: center;
 }
 .nombre-pedido::placeholder{
     width: 100%;
-    padding:2vw;
-    border-radius: 2vw;
+    padding: 4vw;
+    border-radius: 4vw;
     color: var(--gris);
     justify-self: center;
 }
 
 .btn-pedido-enviar{
     width: 98%;
-    padding:2vw;
-    border-radius: 2vw;
+    padding: 4vw;
+    border-radius: 4vw;
     background-color: white;
     justify-self: center;
 }
 .btn-pedido-enviar {
     color: var(--negro);
-    font-size: 3vw;
+    font-size: 6vw;
 }
 
 
@@ -196,15 +196,15 @@ input[type='text'].numero-platos{
     display: inline;
 }
 .btn-nav-foot img {
-    width: 4vw;
+    width: 8vw;
 }
 .btn-nav-foot-pedido{
-    width: 7vw;
-    height: 7vw;
+    width: 14vw;
+    height: 14vw;
     border-radius: 50%;
     background-color: var(--naranja);
     box-shadow: var(--sombra);
 }
 .btn-nav-foot-pedido img{
-    width: 4vw;
+    width: 8vw;
 }
